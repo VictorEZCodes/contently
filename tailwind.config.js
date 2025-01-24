@@ -10,6 +10,12 @@ export default {
         primary: '#4F46E5',
         secondary: '#6B7280',
       },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      spacing: {
+        'safe-top': 'env(safe-area-inset-top)',
+      }
     },
   },
   plugins: [],

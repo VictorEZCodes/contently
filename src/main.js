@@ -6,26 +6,27 @@ const app = document.querySelector('#app');
 app.innerHTML = `
   <div class="min-h-screen bg-gradient-to-b from-gray-50 to-white">
     <!-- Hero Section -->
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden pt-6 sm:pt-8 md:pt-12">
       <div class="max-w-7xl mx-auto">
         <div class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-          <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 md:mt-40">
             <div class="sm:text-center lg:text-left">
-              <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                <span class="block">Transform Web Content</span>
-                <span class="block text-primary">into Clean Markdown</span>
+              <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl leading-[1.1]">
+                <span class="block">Transform Web</span>
+                <span class="block">Content</span>
+                <span class="inline-block bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">into Clean Markdown</span>
               </h1>
-              <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p class="mt-6 text-xl text-gray-600 sm:mt-8 sm:text-2xl max-w-2xl mx-auto lg:mx-0">
                 Extract, convert, and repurpose web content effortlessly. Perfect for developers, content creators, and researchers.
               </p>
-              <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+              <div class="mt-8 sm:mt-10 sm:flex sm:justify-center lg:justify-start gap-4">
                 <div class="rounded-md shadow">
-                  <a href="#converter" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 md:py-4 md:text-lg md:px-10">
+                  <a href="#converter" class="w-full flex items-center justify-center px-8 py-4 text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 md:text-lg">
                     Try it now
                   </a>
                 </div>
-                <div class="mt-3 sm:mt-0 sm:ml-3">
-                  <a href="#features" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-primary/10 hover:bg-primary/20 md:py-4 md:text-lg md:px-10">
+                <div class="mt-3 sm:mt-0">
+                  <a href="#features" class="w-full flex items-center justify-center px-8 py-4 text-base font-medium rounded-md text-primary bg-primary/10 hover:bg-primary/20 md:text-lg">
                     Learn more
                   </a>
                 </div>
